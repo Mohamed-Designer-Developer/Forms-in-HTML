@@ -1,0 +1,66 @@
+/* universal selector  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* center */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.container {
+    border: 2px solid #ccc;
+    width: 300px;
+    height: 460px;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+
+.container-sign {
+    border: 2px solid #ccc;
+    width: 300px;
+    height: 360px;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
